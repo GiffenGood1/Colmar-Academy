@@ -82,6 +82,11 @@ a {
 }
 
 .max-width {
+  max-width: 1600px;
+  margin: 0px auto;
+}
+
+.max-width-cards {
   max-width: 1200px;
   margin: 0px auto;
 }
@@ -101,6 +106,8 @@ footer nav {
 
 /* Media Querys */
 
+
+/* NAV */
 @media only screen and (max-width: 800px) {
 
   .large-nav li {
@@ -117,3 +124,14 @@ footer nav {
   }
 
 }
+
+
+@media only screen and (max-width: 560px) {
+
+  .logo h1 {
+    display: none;
+  }
+
+}
+
+
