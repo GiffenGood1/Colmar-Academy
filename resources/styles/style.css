@@ -1,0 +1,115 @@
+body {
+  font-family: sans-serif ;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Bootstrap Changes */
+
+.bg-secondary {
+  background-color: lightgray !important;
+}
+.text-secondary {
+  color: lightgray !important;
+}
+
+
+
+
+/* Navbar */
+
+.navbar {
+  height: 64px;
+}
+
+.navbar .flex {
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  
+  
+}
+
+.navbar a {
+  margin: 0 12px;
+}
+
+.logo {
+ display: flex;
+ align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  
+  
+} */
+
+.logo h1 {
+  display: inline-block;
+  font-size: 32px;
+}
+
+
+
+/* Card Container */
+
+.card-container {
+  width: 18rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
+/* Footer */
+
+footer p {
+  margin-left: 24px;
+}
+
+footer nav {
+  float: right;
+  margin-right: 24px;
+}
+
+
+
+/* Media Querys */
+
+@media only screen and (max-width: 800px) {
+
+  .large-nav li {
+    display: none;
+  }
+
+}
+
+
+@media only screen and (min-width: 800px) {
+
+  .small-nav li {
+    display: none;
+  }
+
+}
