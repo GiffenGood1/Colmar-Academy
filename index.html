@@ -19,15 +19,16 @@
       </div>
       <nav>
         <ul class="large-nav">
-          <li><a href="#"><span>Campus</span></a></li>
+          <li><a href="#"><span>On Campus</span></a></li>
           <li><a href="#"><span>Online</span></a></li>
           <li><a href="#"><span>For companies</span></a></li>
           <li><a href="#"><span>Sign in</span></a></li>
         </ul>
         <ul class="small-nav">
-          <li><a href="#"><img src="/resources/images/ic-on-campus.svg" alt=""></a></li>
-          <li><a href="#"><img src="/resources/images/ic-online.svg" alt=""></a></li>
-          <li><a href="#"><img src="/resources/images/ic-login.svg" alt=""></a></li>
+          <li id="sml-logo"><a href="#"><img src="./resources/images/ic-logo.svg" alt=""></a></li>
+          <li><a href="#"><img src="./resources/images/ic-on-campus.svg" alt=""></a></li>
+          <li><a href="#"><img src="./resources/images/ic-online.svg" alt=""></a></li>
+          <li><a href="#"><img src="./resources/images/ic-login.svg" alt=""></a></li>
           
         </ul>  
       </nav>
@@ -38,7 +39,7 @@
   <section class="container-fluid bg-secondary">
     <div class="max-width">
       <div class="row align-items-center">
-        <div class="col-md-7 my-md-5 mx-md-4">
+        <div class="col-md-7 my-md-5 mx-md-4 px-0">
           <img src="resources/images/banner.jpg" alt="girl reading book" class="w-100">
         </div>
 
@@ -55,8 +56,8 @@
   <!-- Second Section -->
   <section class="container-fluid mb-3">
     <div class="max-width">
-      <div class="row align-items-center">
-        <div class="col-md-6 my-md-5 mx-md-4 d-none d-md-block">
+      <div class="row align-items-center my-4">
+        <div class="col-md-6 d-none d-md-block align-self-start mx-md-4 p-0">
           <img src="resources/images/information-main.jpg" alt="guy reading book" class="w-100">
           <h1 class="fw-bold my-4">It doesn't hurt to keep practicing</h1>
           <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt facilis voluptatum, cumque reiciendis velit quaerat adipisci blanditiis iure ipsa magni nihil eius labore tempore impedit dolore."</p>
@@ -65,14 +66,14 @@
 
         </div>
 
-        <div class="col border-start ">
-          <div class="row py-3">
-            <div class="col-md">
-              <img src="resources/images/information-orientation.jpg" alt="" class="w-100 d-none d-md-block">
+        <div class="col border-start align-self-start">
+          <div class="row pb-3">
+            <div class="col-md ">
+              <img src="resources/images/information-orientation.jpg" alt="" class="w-100 d-none d-md-block" id="side-img">
               <img src="resources/images/information-orientation-mobile.jpg" alt="" class="w-100 d-md-none d-block">
             </div>
             <div class="col-md my-4 mx-3 mx-md-0">
-              <h3>Orientation Date</h3>
+              <h3 class="fw-bold">Orientation Date</h3>
               <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
               <a href="#">Read More</a>
             </div>
@@ -80,23 +81,23 @@
 
           <div class="row py-3">
             <div class="col-md">
-              <img src="resources/images/information-campus.jpg" alt="" class="w-100 d-none d-md-block">
+              <img src="resources/images/information-campus.jpg" alt="" class="w-100 d-none d-md-block" id="side-img">
               <img src="resources/images/information-campus-mobile.jpg" alt="" class="w-100 d-md-none d-block">
             </div>
             <div class="col-md my-4 mx-3 mx-md-0">
-              <h3>Our Campus</h3>
+              <h3 class="fw-bold">Our Campus</h3>
               <p>Find which campus is close by you</p>
               <a href="#">Read More</a>
             </div>
           </div>
 
-          <div class="row py-3 bg-secondary">
+          <div class="row py-3 bg-secondary" id="bkg-change">
             <div class="col-md">
-              <img src="resources/images/information-guest-lecture.jpg" alt="" class="w-100 d-none d-md-block">
+              <img src="resources/images/information-guest-lecture.jpg" alt="" class="w-100 d-none d-md-block" id="side-img">
               <img src="resources/images/information-guest-lecture-mobile.jpg" alt="" class="w-100 d-md-none d-block">
             </div>
             <div class="col-md my-4 mx-3 mx-md-0">
-              <h3>Our Guest Lecture</h3>
+              <h3 class="fw-bold">Our Guest Lecture</h3>
               <p>Join a keynot with Oliver Sac about music in medical treatment</p>
               <a href="#">Read More</a>
             </div>
@@ -114,11 +115,10 @@
 
   <section class="container-fluid bg-secondary pb-5">
     <div class="max-width-cards">
-      <div class="row text-center">
-        <h1 class="fw-bold my-5">Start learning</h1>
-      </div>
 
-      <div class="row m-4 justify-content-center">
+      <h1 class="fw-bold py-3 text-center">Start learning</h1>
+      
+      <div class="row m-4 justify-content-center d-none d-md-flex">
         <div class="m-2 card-container">
           <div class="card" style="width: 18rem;">
             <img src="resources/images/course-software.jpg" class="card-img-top" alt="...">
@@ -149,9 +149,6 @@
             </div>
           </div>
         </div>
-      
-
-      
         <div class="m-2 card-container">
           <div class="card" style="width: 18rem;">
             <img src="resources/images/course-data.jpg" class="card-img-top" alt="...">
@@ -183,6 +180,31 @@
           </div>
         </div>
       </div>
+
+      <div class="row d-md-none d-block">
+        <div class="col">
+          <div class="row mx-3 py-3 my-2 bg-primary">
+            <h1 class="fw-bold">Software engineering</h1>
+          </div>
+          <div class="row mx-3 py-3 my-2 bg-primary">
+            <h1 class="fw-bold">Computer art</h1>
+          </div>
+          <div class="row mx-3 py-3 my-2 bg-primary">
+            <h1 class="fw-bold">Design</h1>
+          </div>
+          <div class="row mx-3 py-3 my-2 bg-primary">
+            <h1 class="fw-bold">Data</h1>
+          </div>
+          <div class="row mx-3 py-3 my-2 bg-primary">
+            <h1 class="fw-bold">Business</h1>
+          </div>
+          <div class="row mx-3 py-3 my-2 bg-primary">
+            <h1 class="fw-bold">Marketing</h1>
+          </div>
+
+        </div>
+
+      </div>
     </div>
 
   </section>
@@ -191,11 +213,11 @@
   <section class="container-fluid pb-5">
     <div class="max-width">
       <div class="row text-center">
-        <h1 class="fw-bold mt-5">Thesis Exibit</h1>
+        <h1 class="fw-bold my-5">Thesis Exibit</h1>
       </div>
 
       <div class="row align-items-center">
-        <div class="col-md-6 my-md-5 mx-md-4">
+        <div class="col-md-6 mx-md-4 px-0 align-self-start">
           <video src="resources/videos/thesis.mp4" alt="video" class="w-100" controls></video>
             
           <h1 class="fw-bold my-4 d-none d-md-block">Reimagine urban</h1>
@@ -203,10 +225,10 @@
 
         </div>
 
-        <div class="col d-none d-md-block">
+        <div class="col d-none d-md-block align-self-start">
           <div class="row py-3 bg-secondary">
             <div class="col">
-              <img src="resources/images/thesis-fisma.jpg" alt="" class="w-100">
+              <img src="resources/images/thesis-fisma.jpg" alt="" class="w-100" id="side-img">
             </div>
             <div class="col">
               <h3>Orientation Date</h3>
@@ -218,7 +240,7 @@
           
           <div class="row py-3 ">
             <div class="col">
-              <img src="resources/images/thesis-now-and-then.jpg" alt="" class="w-100">
+              <img src="resources/images/thesis-now-and-then.jpg" alt="" class="w-100" id="side-img">
             </div>
             <div class="col">
               <h3>Our Guest Lecture</h3>
@@ -238,7 +260,7 @@
 
     <p id>&copy 2016 Colmar Academy. All rights reserved</p>
     
-    <nav>
+    <nav class="d-none d-md-block">
       <a href="#" class="mx-2">Terms</a>
       <a href="#" class="mx-2">Privacy</a>
     </nav>

@@ -26,6 +26,11 @@ a {
 .bg-secondary {
   background-color: lightgray !important;
 }
+
+.bg-primary {
+  background-color: white !important;
+}
+
 .text-secondary {
   color: lightgray !important;
 }
@@ -68,6 +73,13 @@ a {
   display: inline-block;
   font-size: 32px;
 }
+
+/* Section 2 */
+
+#side-img {
+  max-width: 190px;
+}
+
 
 
 
@@ -113,7 +125,9 @@ footer nav {
   .large-nav li {
     display: none;
   }
-
+  #sml-logo {
+    display: none;
+  }
 }
 
 
@@ -123,15 +137,61 @@ footer nav {
     display: none;
   }
 
+    
+  
+  
+    
 }
 
 
 @media only screen and (max-width: 560px) {
 
+  .logo img {
+    display: none;
+  }
   .logo h1 {
     display: none;
   }
 
+  #sml-logo {
+    display: list-item;
+  }
+
+  .navbar .flex {
+    justify-content: center;
+  }
+  
+  .navbar ul {
+    display: flex;
+    
+    
+  }
+  
+  .navbar a {
+    margin: 0 12px;
+  }
+  
+  .logo {
+   display: flex;
+   align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+    
+    
+  } */
+  
+  .logo h1 {
+    display: inline-block;
+    font-size: 32px;
+  }
 }
 
 
+/* background change */
+@media only screen and (max-width: 768px) {
+  #bkg-change {
+    background-color: white !important;
+  }
+}
