@@ -14,7 +14,6 @@ a {
 }
 
 
-
 .flex {
   display: flex;
   justify-content: center;
@@ -81,8 +80,6 @@ a {
 }
 
 
-
-
 /* Card Container */
 
 .card-container {
@@ -136,10 +133,6 @@ footer nav {
   .small-nav li {
     display: none;
   }
-
-    
-  
-  
     
 }
 
@@ -161,36 +154,10 @@ footer nav {
     justify-content: center;
   }
   
-  .navbar ul {
-    display: flex;
-    
-    
-  }
-  
-  .navbar a {
-    margin: 0 12px;
-  }
-  
-  .logo {
-   display: flex;
-   align-items: center;
-  }
-  
-  .logo img {
-    height: 50px;
-    
-    
-  } */
-  
-  .logo h1 {
-    display: inline-block;
-    font-size: 32px;
-  }
 }
 
-
 /* background change */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 76px) {
   #bkg-change {
     background-color: white !important;
   }
