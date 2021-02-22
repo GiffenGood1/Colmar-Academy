@@ -1,5 +1,5 @@
 Codecademy practice project
 
-Excursion
+Colmar Academy
 
 Practice project using HTML and CSS
